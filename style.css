@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f7f1e3;
+}
+
+/* Navbar styling */
+.navbar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* Styling for card */
+.card-bootstrap {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
