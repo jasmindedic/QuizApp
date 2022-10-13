@@ -5,7 +5,11 @@
 }
 
 body {
-    background: #f7f1e3;
+    background: #222f3e;
+}
+
+.header {
+    margin-bottom: 2.4rem;
 }
 
 /* Navbar styling */
@@ -15,9 +19,53 @@ body {
 }
 
 /* Styling for card */
-.card-bootstrap {
-    min-height: 100vh;
+.container {
+    margin-top: 1rem;
+    background: #222f3e;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.quiz-card {
+    width: 30rem;
+}
+
+.card-img-top {
+    height: 20rem;
+    object-fit: cover;
+}
+
+.question-footer {
+    border-top: 1px solid rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 12px;
+}
+
+.quiz-answer-card:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.bg-success, .bg-danger {
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 450px) {
+    .header {
+        margin-bottom: 6rem;
+    }
+    
+    
 }
